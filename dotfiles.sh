@@ -5,3 +5,7 @@ dotfilesconfig stash
 dotfilesconfig work
 dotfilesconfig master
 rm -rf /tmp/myconf
+
+source ~/.zshrc
+dotfiles submodule init
+dotfiles submodule update
