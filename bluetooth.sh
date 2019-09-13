@@ -1,4 +1,5 @@
 #!/usr/bin/sh
+yay -S bluez-tools
 systemctl start bluetooth.service
 systemctl enable bluetooth.service
 sudo sed -i "s/#\?AutoEnable=[a-z]*$/AutoEnable=true /g" /etc/bluetooth/main.conf
